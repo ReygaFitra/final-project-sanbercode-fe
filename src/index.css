@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-sm {
+    @apply py-2 px-4 font-semibold flex items-center gap-1;
+  }
+  .btn-sm-primary {
+    @apply py-2 px-4 font-semibold flex items-center gap-1 bg-primary text-base-100 hover:bg-success transition hover:text-base-0;
+  }
+  .btn-sm-secondary {
+    @apply py-2 px-4 font-semibold flex items-center gap-1 bg-secondary text-base-0 hover:bg-warning transition hover:text-base-0;
+  }
+  .btn-sm-error {
+    @apply py-2 px-4 font-semibold flex items-center gap-1 bg-red-600 text-base-100 hover:bg-error transition hover:text-red-600;
+  }
+  .btn-sm-info {
+    @apply py-2 px-4 font-semibold flex items-center gap-1 bg-blue-600 text-base-100 hover:bg-info transition hover:text-blue-600;
+  }
+  .btn-lg {
+    @apply px-5 py-2.5 font-semibold flex items-center gap-1;
+  }
+  .btn-lg-primary {
+    @apply px-5 py-2.5 font-semibold flex items-center gap-1 bg-primary text-base-100 hover:bg-success transition hover:text-base-0;
+  }
+  .btn-lg-secondary {
+    @apply px-5 py-2.5 font-semibold flex items-center gap-1 bg-secondary text-base-0 hover:bg-warning transition hover:text-base-0;
+  }
+  .btn-lg-error {
+    @apply px-5 py-2.5 font-semibold flex items-center gap-1 bg-red-600 text-base-100 hover:bg-error transition hover:text-red-600;
+  }
+  .btn-lg-info {
+    @apply px-5 py-2.5 font-semibold flex items-center gap-1 bg-blue-600 text-base-100 hover:bg-info transition hover:text-blue-600;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
